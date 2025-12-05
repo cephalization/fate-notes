@@ -19,6 +19,10 @@
   relevant for tsgo native preview.
 - eslint extension errors about finding globSync from node:fs despite using node v24
 
+## CI notes
+
+- the push workflow depends on .env file being present in server directory. This is not ideal as it should not be committed to the repo beyond the template.
+
 ## Client code notes
 
 - client/src/App.css has a mix of deprecated tailwindcss 3 configs instead of a single @import 'tailwindcss' at the top.
