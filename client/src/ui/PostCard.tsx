@@ -93,7 +93,7 @@ const CommentInput = ({
     <VStack action={handleAddComment} as="form" gap>
       <span className="text-foreground text-sm font-medium">Add a comment</span>
       <textarea
-        className="border-gray-200/80 bg-gray-100/50 text-foreground min-h-20 w-full squircle border p-3 text-sm placeholder-gray-500 transition outline-none focus:border-gray-500 focus:ring-2 focus:ring-gray-200 disabled:opacity-50 dark:border-neutral-800 dark:focus:border-gray-400 dark:focus:ring-gray-900"
+        className="border-gray-200/80 bg-gray-100/50 text-foreground min-h-20 w-full squircle border p-3 text-sm placeholder-gray-200 transition outline-none focus:border-gray-500 focus:ring-2 focus:ring-gray-200 disabled:opacity-50 dark:border-neutral-800 dark:focus:border-gray-400 dark:focus:ring-gray-900"
         disabled={addCommentIsPending}
         onChange={(event) => setCommentText(event.target.value)}
         onKeyDown={maybeSubmitComment}

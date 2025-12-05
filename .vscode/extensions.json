@@ -5,6 +5,9 @@
     "styled-components.vscode-styled-components",
     "sysoev.vscode-open-in-github",
     "usernamehw.errorlens",
-    "wix.vscode-import-cost"
+    "wix.vscode-import-cost",
+    "oxc.oxc-vscode",
+    "typescriptteam.native-preview",
+    "bradlc.vscode-tailwindcss"
   ]
 }

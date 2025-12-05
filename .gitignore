@@ -9,3 +9,4 @@ server/dist/
 server/src/prisma/prisma-client/
 tsconfig.tsbuildinfo
 vite.config.ts.timestamp-*
+server/.env
